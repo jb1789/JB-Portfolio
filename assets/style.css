@@ -53,11 +53,19 @@ img {
     margin-right: 50px;
   }
   @media screen and (max-width: 600px) {
-   
+   .nav{
+       font-size: smaller;
+       display: flex;
+       flex-direction:column; 
+   }
     p {
         font-size: smaller;
     }
     img {
         float: none;
+        size: 50%;
+    }
+    .navbar-brand{
+        font-size: small;
     }
   }
