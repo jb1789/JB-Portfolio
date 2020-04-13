@@ -24,6 +24,7 @@ p{
     font-family: 'Great Vibes', cursive;
     font-size: 50px;
     font-weight: bolder;
+    padding: 20px;
 }
 
 .nav-link {
@@ -51,8 +52,12 @@ img {
     float: left;
     margin-right: 50px;
   }
- 
-  
-  @media screen and (max-width:900px) {}
-  @media screen and (min-width:900px) and (max-width:1200px) {}
-  @media screen and (min-width:1200px) {}
+  @media screen and (max-width: 600px) {
+   
+    p {
+        font-size: smaller;
+    }
+    img {
+        float: none;
+    }
+  }
