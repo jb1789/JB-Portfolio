@@ -18,7 +18,7 @@ background-color: whitesmoke;
 
 p{
     font-family: 'Bree Serif', serif;
-    font-size: 30px;  
+    font-size:  30px;  
 }
 .navbar-brand{
     font-family: 'Great Vibes', cursive;
@@ -46,3 +46,13 @@ p{
   
     align-content: center;
 }
+
+img {
+    float: left;
+    margin-right: 50px;
+  }
+ 
+  
+  @media screen and (max-width:900px) {}
+  @media screen and (min-width:900px) and (max-width:1200px) {}
+  @media screen and (min-width:1200px) {}
