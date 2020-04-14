@@ -71,8 +71,10 @@ img {
   }
 }*/
 
-@media (min-width: 480px)
-searchengineland-bootstrap.css:1:118460.container-fluid {
-z-index: 1;
-
-}
+media screen and (min-width: 480px) {
+    .container {
+        margin-left: 216px;
+        overflow: auto;
+        font-size: 65%;
+    }
+ 
