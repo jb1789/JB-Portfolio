@@ -54,12 +54,17 @@ img {
   }
   @media screen and (max-width: 480px) {
    .jumbotron{
-       max-width: 50%;
+       max-width: 68%;
  }
   .navbar-brand{
-      max-width: 50%
+      max-width: 50%;
+      font-size:30px;
   }
   p{ 
       font-size: 20px;
+  }
+  img{
+      float: none;
+
   }
 }
