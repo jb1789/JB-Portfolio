@@ -59,4 +59,7 @@ img {
   .navbar-brand{
       max-width: 50%
   }
+  p{ 
+      font-size: 20px;
+  }
 }
